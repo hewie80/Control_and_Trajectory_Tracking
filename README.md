@@ -13,13 +13,13 @@ SDL_VIDEODRIVER=offscreen ./CarlaUE4.sh -opengl
 ### Compile and Run the Controller
 Open new window
 
-cd nd013-c6-control-starter/project
-./install-ubuntu.sh
-cd pid_controller/
-rm -rf rpclib
-git clone https://github.com/rpclib/rpclib.git
-cmake .
-make (This last command compiles your C++ code, run it after every change in your code)
+--cd nd013-c6-control-starter/project
+--./install-ubuntu.sh
+--cd pid_controller/
+--rm -rf rpclib
+--git clone https://github.com/rpclib/rpclib.git
+--cmake .
+--make (This last command compiles your C++ code, run it after every change in your code)
 ### Testing
 To test your installation run the following commands.
 
