@@ -7,19 +7,18 @@ A PID controller is implemented and integrated into the provided framework.  for
 ### Run Carla Simulator
 Open new window
 <br> *su - student // Will say permission denied, ignore and continue
-#### *cd /opt/carla-simulator/
-#### *SDL_VIDEODRIVER=offscreen ./CarlaUE4.sh -opengl
-### Compile and Run the Controller
+<br> *cd /opt/carla-simulator/
+<br> *SDL_VIDEODRIVER=offscreen ./CarlaUE4.sh -opengl
+<br> Compile and Run the Controller
 Open new window
---cd nd013-c6-control-starter/project
-*/install-ubuntu.sh
---cd pid_controller/
---rm -rf rpclib
---git clone https://github.com/rpclib/rpclib.git
---cmake .
---make (This last command compiles your C++ code, run it after every change in your code)
+<br> *cd nd013-c6-control-starter/project
+<br> */install-ubuntu.sh
+<br> *cd pid_controller/
+<br> *rm -rf rpclib
+<br> *git clone https://github.com/rpclib/rpclib.git
+<br> *cmake .
+<br> *make (This last command compiles your C++ code, run it after every change in your code)
 ### Testing
 To test your installation run the following commands.
-
-cd nd013-c6-control-starter/project
-./run_main_pid.sh Go to desktop mode to see CARLA
+<br> *cd nd013-c6-control-starter/project
+<br> *./run_main_pid.sh Go to desktop mode to see CARLA
