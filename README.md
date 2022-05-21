@@ -6,7 +6,7 @@ A PID controller is implemented and integrated into the provided framework.  for
 ## Running
 ### Run Carla Simulator
 Open new window
-#### *su - student // Will say permission denied, ignore and continue
+<br> *su - student // Will say permission denied, ignore and continue
 #### *cd /opt/carla-simulator/
 #### *SDL_VIDEODRIVER=offscreen ./CarlaUE4.sh -opengl
 ### Compile and Run the Controller
