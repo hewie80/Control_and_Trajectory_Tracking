@@ -6,13 +6,11 @@ A PID controller is implemented and integrated into the provided framework.  for
 ## Running
 ### Run Carla Simulator
 Open new window
-
-*su - student // Will say permission denied, ignore and continue
-*cd /opt/carla-simulator/
-*SDL_VIDEODRIVER=offscreen ./CarlaUE4.sh -opengl
+#### *su - student // Will say permission denied, ignore and continue
+#### *cd /opt/carla-simulator/
+#### *SDL_VIDEODRIVER=offscreen ./CarlaUE4.sh -opengl
 ### Compile and Run the Controller
 Open new window
-
 --cd nd013-c6-control-starter/project
 */install-ubuntu.sh
 --cd pid_controller/
